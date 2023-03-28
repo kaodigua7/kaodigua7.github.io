@@ -27,13 +27,13 @@
 <meta property="og:site_name" content="烤地瓜">
 <meta property="og:description" content="微服务架构及设计原则需要遵循的原则 职责独立:每个微服务只做自己功能范围的事情,服务之间的依赖链不要过长 使用熔断器时限快速故障容错和线程隔离,例如Hystrix、Sentinel 通过网关代理(Gateway、Zuul)微服务的请求,网关是微服务对外暴露的唯一入口 确保微服务API变更后能够向后兼容  能够带来的收益 单个微服务可以选择多个语言开发,扩展性强 减少代码耦合,不会出现大量的冲突 微">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2023/03/02/springcloudalibaba/images/image-20230327190122027.png">
-<meta property="og:image" content="http://example.com/2023/03/02/springcloudalibaba/images/image-20230327201651879.png">
+<meta property="og:image" content="http://example.com/2023/03/02/springcloudalibaba/Spring%20Cloud%20Alibaba/images/image-20230327190105081.png">
+<meta property="og:image" content="http://example.com/2023/03/02/springcloudalibaba/Spring%20Cloud%20Alibaba/images/image-20230327201622182.png">
 <meta property="article:published_time" content="2023-03-02T08:44:21.153Z">
-<meta property="article:modified_time" content="2023-03-28T02:35:13.168Z">
+<meta property="article:modified_time" content="2023-03-28T02:46:26.771Z">
 <meta property="article:author" content="烤地瓜">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2023/03/02/springcloudalibaba/images/image-20230327190122027.png">
+<meta name="twitter:image" content="http://example.com/2023/03/02/springcloudalibaba/Spring%20Cloud%20Alibaba/images/image-20230327190105081.png">
 
 <link rel="canonical" href="http://example.com/2023/03/02/springcloudalibaba/Spring%20Cloud%20Alibaba/">
 
@@ -197,7 +197,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-03-28 10:35:13" itemprop="dateModified" datetime="2023-03-28T10:35:13+08:00">2023-03-28</time>
+                <time title="修改时间：2023-03-28 10:46:26" itemprop="dateModified" datetime="2023-03-28T10:46:26+08:00">2023-03-28</time>
               </span>
 
           
@@ -302,7 +302,7 @@
 </li>
 <li><p>集群必须要使用可以共同访问(MySQL、PG等等)到数据源作为持久化方式</p>
 </li>
-<li><p>接下来拷贝nacos目录并修改配置每个nacos中的配置文件<img src="../images/image-20230327190122027.png" alt="image-20230327190122027"></p>
+<li><p>接下来拷贝nacos目录并修改配置每个nacos中的配置文件<img src="images/image-20230327190105081.png" alt="image-20230327190105081"></p>
 <p>修改nacos-8858\conf和nacos-8868\conf(8848为默认无需修改)中<strong>application.properties中的端口号配置</strong></p>
 <figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">server.port</span>=<span class="string">8868</span></span><br></pre></td></tr></table></figure></li>
 <li><p>集群化启动没有额外的参数</p>
@@ -327,7 +327,7 @@
 </ul>
 </li>
 </ol>
-<p><img src="../images/image-20230327201651879.png" alt="image-20230327201651879"></p>
+<p><img src="images/image-20230327201622182.png" alt="image-20230327201622182"></p>
 <h3 id="Client-概念验证"><a href="#Client-概念验证" class="headerlink" title="Client 概念验证"></a>Client 概念验证</h3><ol>
 <li>新建模块e-commerce-alibaba-nacos-client</li>
 <li></li>
